@@ -1,0 +1,10 @@
+langchain-core
+langchain-openai
+langchain-community
+langchain
+langdetect
+langchain-text-splitters
+langchain-chroma
+streamlit
+re2
+sentence-transformers
