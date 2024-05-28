@@ -43,7 +43,7 @@ retrieval_tool = create_retriever_tool(
 
 tools = [retrieval_tool, TavilySearchResults(max_results=5)]
 
-llm = ChatOpenAI(model="experimental-typhoon-next-70b-0524", temperature=0, base_url="https://api.opentyphoon.ai/v1")
+llm = ChatOpenAI(model="experimental-typhoon-next-70b-0524", temperature=0.7, base_url="https://api.opentyphoon.ai/v1")
 
 prompt = hub.pull("chanakan/typhoon-tools")
 
