@@ -49,7 +49,7 @@ prompt = hub.pull("chanakan/typhoon-tools")
 
 question = st.chat_input("พิมพ์อะไรสักหน่อยสิ")
 #images = ["https://miro.medium.com/v2/resize:fit:1400/1*M4S6A5QXflFmjTBohtyYjw.jpeg", "https://cms-b-assets.familysearch.org/dims4/default/92f0f61/2147483647/strip/true/crop/750x500+0+0/resize/1240x827!/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2Fcb%2F2b%2Fab7608ce1f477c824c31846ed2f3%2Feiffel-tower-sunrise.jpg"]
-images = st.file_uploader("Upload รูปตรงนี้ได้นะ")
+images = st.file_uploader("Don't Upload รูปตรงนี้ได้นะ")
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
